@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        .card{
+            flex-direction: column; 
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin:200px;
+            /* border-radius: 100px; */
+        }
+        .container{
+            background-color: gray;
+            height: 350px;
+            width: 300px;
+            flex-direction: column; 
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 10px;
+        }
+        img {
+            border-radius: 50%;
+            height: 150px;
+            position: relative;
+            top: -22px;
+        }
+        h3 {
+            font-size: 30px;
+            position: relative;
+            top: -40px;
+        }
+        h5 {
+            font-size: 28px;
+            
+            bottom: -20px;
+        }
+        .section>button{
+            font-size: 20px;
+            position: relative;
+            bottom: -30px;
+            margin: 0 20px;
+            border-radius: 5px;
+        }
+        
+    </style>
+</head>
+<body>
+    
+    <div class="card">
+        <div class="container">
+            <h3>Friend Request</h3>
+            <img src="https://static.vecteezy.com/system/resources/thumbnails/004/899/680/small/beautiful-blonde-woman-with-makeup-avatar-for-a-beauty-salon-illustration-in-the-cartoon-style-vector.jpg">
+            <h5>Jhon Doe</h5>
+
+            <div class="section">
+                <button>Accept</button>
+                <button>Decline</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
